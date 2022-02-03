@@ -5,7 +5,7 @@
  	 	 	"eng": "Map"
  	 	},
  	 	"inventory": {
- 	 	 	"trans": "인벤토리",
+ 	 	 	"trans": "인벤리",
  	 	 	"eng": "Inventory"
  	 	},
  	 	"quest": {
@@ -503,7 +503,7 @@
  	 	 	 	"eng": "Reverse Engineer Scraps"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "기술 조각을 역공학하여 인쇄 레벨을 높입니다. \r\n        약간의 기술 조각을 소모해야 합니다.",
+ 	 	 	 	"trans": "공학 조각을 분석하여 인쇄 레벨을 높입니다. \r\n        약간의 공학 조각을 소모해야 합니다.",
  	 	 	 	"eng": "Reverse engineer tech scrap to improve your Print Rank. \r\n        You’ll need to sacrifice some of your tech scrap."
  	 	 	}
  	 	},
@@ -523,11 +523,11 @@
  	 	 	 	"eng": "Deploy farm bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[오프라인 경험치 파밍]\r\n        던전에 AI를 투입합니다. 이는 AI 코어를 1개 소모할 것이고, 보통 AI 코어 1개는 한 번의 자동 사냥을 해낼 수 있습니다.",
+ 	 	 	 	"trans": "[자동 경험치 파밍]\r\n        던전에 AI를 투입합니다. 이는 AI 코어를 1개 소모할 것이고, 보통 AI 코어 1개는 한 번의 자동 사냥을 해낼 수 있습니다.",
  	 	 	 	"eng": "[AFK Exp Farm]\r\n        Deploys an AI to dungeon for you. This will use up an AI Core, they usually only just manage the one trip."
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "접속하지 않는 동안 AI 코어를 이용하여 적들을 자동 사냥할 수 있습니다",
+ 	 	 	 	"trans": "AI 코어를 소모하여 적들을 자동으로 사냥합니다.",
  	 	 	 	"eng": "You can use your AI Core to Auto-Farm enemies while you AFK"
  	 	 	}
  	 	},
@@ -543,7 +543,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"zoneName"
  	 	 	 	],
- 	 	 	 	"trans": "[오프라인 자원 수집]\r\n                    ${zoneName}에서 탐색을 하며 유용한 아이템들을 찾아보세요.\r\n                    운이 좋을지 누가 알겠어요!",
+ 	 	 	 	"trans": "[자동 자원 수집]\r\n                    ${zoneName}에서 탐색을 하며 유용한 아이템들을 찾아보세요.\r\n                    운이 좋을지 누가 알겠어요!",
  	 	 	 	"eng": "[AFK Resource Gather]\r\n                    Search around in ${zoneName} and scavenge for useful items.\r\n                    Who knows, maybe you'll get lucky!"
  	 	 	}
  	 	},
@@ -559,11 +559,11 @@
  	 	},
  	 	"clanDecryptShard": {
  	 	 	"name": {
- 	 	 	 	"trans": "메모리 조각 해독",
+ 	 	 	 	"trans": "메모리 샤드 해독",
  	 	 	 	"eng": "Decrypt memory shard"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "유용한 정보를 얻기 위해 메모리 조각을 해독한다. \r\n         *메모리 조각은 대화 내용이나 특정 정보가 담겨 있는 작은 데이터 카드를 말합니다. 조각 안에는 대부분 사이버코드 세계의 잡학지식들이 들어 있지만, 일부 조각에는 임무 수행에 필요한 핵심 자료가 담겨 있는 경우도 있습니다.",
+ 	 	 	 	"trans": "유용한 정보를 얻기 위해 메모리 샤드를 해독다. \r\n         *메모리 샤드는 대화 내용이나 특정 정보가 담겨 있는 작은 데이터 카드를 말합니다. 샤드 안에는 대부분 사이버코드 세계의 잡학지식들이 들어 있지만, 일부 샤드에는 임무 수행에 필요한 핵심 자료가 담겨 있는 경우도 있습니다.",
  	 	 	 	"eng": "Decrypt a memory shard to retrieve useful intel."
  	 	 	}
  	 	},
@@ -573,7 +573,7 @@
  	 	 	 	"eng": "Reinforce occupation at Shangri-la"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "샹그릴라 시의 점령도를 강화하고 확립하는 것을 돕습니다.",
+ 	 	 	 	"trans": "샹그릴라 도시에 대한 영향력을 강화합니다.",
  	 	 	 	"eng": "Help reinforce and establish greater control of Shangri-la city."
  	 	 	}
  	 	},
@@ -599,7 +599,7 @@
  	 	},
  	 	"globalQuest": {
  	 	 	"name": {
- 	 	 	 	"trans": "SL 데이터 요새 해킹",
+ 	 	 	 	"trans": "샹그릴라 데이터 요새 해킹",
  	 	 	 	"eng": "Hack SL Data Fortress"
  	 	 	},
  	 	 	"description": {
@@ -629,44 +629,44 @@
  	 	 	 	"amount",
  	 	 	 	"levelName"
  	 	 	],
- 	 	 	"trans": "${amount} ${levelName} 경험치를 받았다",
+ 	 	 	"trans": "${amount} ${levelName} EXP를 받았습니다",
  	 	 	"eng": "You received ${amount} ${levelName} experience points"
  	 	}
  	},
  	"tier": {
  	 	"trash": {
  	 	 	"name": {
- 	 	 	 	"trans": "저급",
+ 	 	 	 	"trans": "조잡한",
  	 	 	 	"eng": "trash"
  	 	 	}
  	 	},
  	 	"common": {
  	 	 	"name": {
- 	 	 	 	"trans": "평범",
+ 	 	 	 	"trans": "평범한",
  	 	 	 	"eng": "common"
  	 	 	}
  	 	},
  	 	"highQuality": {
  	 	 	"name": {
- 	 	 	 	"trans": "고급",
+ 	 	 	 	"trans": "개량된",
  	 	 	 	"eng": "high quality"
  	 	 	}
  	 	},
  	 	"rare": {
  	 	 	"name": {
- 	 	 	 	"trans": "희귀",
+ 	 	 	 	"trans": "희귀한",
  	 	 	 	"eng": "rare"
  	 	 	}
  	 	},
  	 	"legendary": {
  	 	 	"name": {
- 	 	 	 	"trans": "전설",
+ 	 	 	 	"trans": "전설적인",
  	 	 	 	"eng": "legendary"
  	 	 	}
  	 	},
  	 	"epic": {
  	 	 	"name": {
- 	 	 	 	"trans": "에픽",
+ 	 	 	 	"trans": "신화적인",
  	 	 	 	"eng": "epic"
  	 	 	}
  	 	}
@@ -677,14 +677,14 @@
  	 	 	 	"vars": [
  	 	 	 	 	"levelName"
  	 	 	 	],
- 	 	 	 	"trans": "[경험치] ${levelName} 경험치 조각",
+ 	 	 	 	"trans": "[경험치] ${levelName} 경험치 샤드",
  	 	 	 	"eng": "Experience Shard [${levelName}]"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"vars": [
  	 	 	 	 	"levelName"
  	 	 	 	],
- 	 	 	 	"trans": "누군가의 기억과 경험을 지닌 조각으로, 사용하면 ${levelName} 경험치를 얻을 수 있다. \r\n         *경험치 조각은 대화 내용이나 특정 정보가 담겨 있는 작은 데이터 카드를 말합니다. 조각 안에는 대부분 사이버코드 세계의 잡학지식이 들어 있지만, 일부 샤드에는 임무 수행에 필요한 핵심 자료가 담겨 있는 경우도 있습니다.",
+ 	 	 	 	"trans": "누군가의 기억과 경험을 지닌 샤드로, 사용하면 ${levelName} 경험치를 얻을 수 있다. \r\n         *경험치 샤드는 대화 내용이나 특정 정보가 담겨 있는 작은 데이터 카드를 말합니다. 샤드 안에는 대부분 사이버코드 세계의 잡학지식이 들어 있지만, 일부 샤드에는 임무 수행에 필요한 핵심 자료가 담겨 있는 경우도 있습니다.",
  	 	 	 	"eng": "A shard that contains someone's memory and experience. If used you may gain ${levelName} experience from this"
  	 	 	}
  	 	},
@@ -694,14 +694,14 @@
  	 	 	 	 	"segmentDisplayName",
  	 	 	 	 	"fragmentNum"
  	 	 	 	],
- 	 	 	 	"trans": "${segmentDisplayName} 열쇠 조각 ${fragmentNum}",
+ 	 	 	 	"trans": "${segmentDisplayName} 열쇠 파편 ${fragmentNum}",
  	 	 	 	"eng": "${segmentDisplayName} Key Fragment ${fragmentNum}"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"vars": [
  	 	 	 	 	"segmentDisplayName"
  	 	 	 	],
- 	 	 	 	"trans": "비밀 열쇠를 무차별 대입으로 얻기 위한 열쇠 조각입니다.\r\n                                도심지의 [터미널]을 사용하여 ${segmentDisplayName} 비밀 열쇠를 무차별 대입으로 얻을 수 있습니다.\r\n                                필요한 3가지 열쇠는 각각의 던전에서 얻을 수 있습니다. (난이도 상관없음),\r\n                                3개의 키를 모두 획득했다면, 단말기에서 다음 지역으로 가기 위한 열쇠를 무차별 대입을 통해 만들 수 있습니다.",
+ 	 	 	 	"trans": "비밀 열쇠를 얻기 위한 열쇠 파편입니다.\r\n                                도심지의 [터미널]을 사용하여 ${segmentDisplayName} 비밀 열쇠를 무차별 대입으로 얻을 수 있습니다.\r\n                                필요한 3가지 열쇠는 각각의 던전에서 얻을 수 있습니다. (난이도 상관없음),\r\n                                3개의 키를 모두 획득했다면, 단말기에서 다음 지역으로 가기 위한 열쇠를 무차별 대입을 통해 만들 수 있습니다.",
  	 	 	 	"eng": "A secret key Fragment used to brute-force a secret key.\r\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\r\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\r\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area"
  	 	 	}
  	 	},
@@ -798,27 +798,27 @@
  	 	 	 	"eng": "Military Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "군용 표준품인 주입식 나노 기계입니다. 전투 중 상처를 봉합할 수 있습니다.",
+ 	 	 	 	"trans": "군용 표준품인 주입식 나노 머신입니다. 전투 중 상처를 봉합할 수 있습니다.",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They are capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing6": {
  	 	 	"name": {
- 	 	 	 	"trans": "[의료] 중급 나노 의료 로봇",
+ 	 	 	 	"trans": "[의료] 개량된 나노 의료 로봇",
  	 	 	 	"eng": "Advanced Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "군용 표준품인 주입식 나노 기계입니다. 전투 중 상처를 봉합할 수 있습니다.",
+ 	 	 	 	"trans": "군용 표준품인 주입식 나노 머신입니다. 전투 중 상처를 봉합할 수 있습니다.",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing7": {
  	 	 	"name": {
- 	 	 	 	"trans": "[의료] 고급 나노 의료 로봇",
+ 	 	 	 	"trans": "[의료]  나노 의료 로봇",
  	 	 	 	"eng": "High Quality Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "군용 표준품인 주입식 나노 기계입니다. 전투 중 상처를 봉합할 수 있습니다.",
+ 	 	 	 	"trans": "군용 표준품인 주입식 나노 머신입니다. 전투 중 상처를 봉합할 수 있습니다.",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
@@ -828,7 +828,7 @@
  	 	 	 	"eng": "Rare Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "군용 표준품인 주입식 나노 기계입니다. 전투 중 상처를 봉합할 수 있습니다.",
+ 	 	 	 	"trans": "군용 표준품인 주입식 나노 머신입니다. 전투 중 상처를 봉합할 수 있습니다.",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
@@ -844,7 +844,7 @@
  	 	},
  	 	"healingArea2": {
  	 	 	"name": {
- 	 	 	 	"trans": "[의료] 저급 수리 드론",
+ 	 	 	 	"trans": "[의료] 조잡한 수리 드론",
  	 	 	 	"eng": "Degraded Repair drone"
  	 	 	},
  	 	 	"description": {
@@ -854,7 +854,7 @@
  	 	},
  	 	"healingArea3": {
  	 	 	"name": {
- 	 	 	 	"trans": "[의료] 저급 나노 의료 드론",
+ 	 	 	 	"trans": "[의료] 조잡한 나노 의료 드론",
  	 	 	 	"eng": "Degraded nano medic drone"
  	 	 	},
  	 	 	"description": {
@@ -884,7 +884,7 @@
  	 	},
  	 	"healingArea6": {
  	 	 	"name": {
- 	 	 	 	"trans": "[의료] 중급 나노 의료 드론",
+ 	 	 	 	"trans": "[의료] 개량된 나노 의료 드론",
  	 	 	 	"eng": "Advance Nano medic drone"
  	 	 	},
  	 	 	"description": {
@@ -894,7 +894,7 @@
  	 	},
  	 	"healingArea7": {
  	 	 	"name": {
- 	 	 	 	"trans": "[의료] 고급 나노 의료 드론",
+ 	 	 	 	"trans": "[의료] 특제 나노 의료 드론",
  	 	 	 	"eng": "High Quality Nano medic drone"
  	 	 	},
  	 	 	"description": {
@@ -928,7 +928,7 @@
  	 	 	 	"eng": "Experience Memory"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "메모리 은행은 누군가의 기억을 담고 있습니다. 이것을 사용하면 경험치를 얻을 수 있습니다.",
+ 	 	 	 	"trans": "메모리 저장소는 누군가의 기억이 기록되어있습니다. 사용시 경험치를 획득합니다.",
  	 	 	 	"eng": "Memory bank contains someone's memory. If used you may gain experience from this"
  	 	 	}
  	 	},
